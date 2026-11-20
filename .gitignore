@@ -1,0 +1,7 @@
+/.vs
+*.meta
+/Library
+/Logs
+/UserSettings
+/UIElementsSchema
+/Assets/TutorialInfo

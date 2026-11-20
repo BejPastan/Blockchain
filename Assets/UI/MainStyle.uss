@@ -1,0 +1,85 @@
+.labelButton {
+    background-color: rgba(0, 0, 0, 0.376);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.activeLabel {
+    background-color: rgba(0, 133, 0, 0.686);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.marketInpt {
+    flex-direction: column;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.infoContainer {
+    flex-grow: 0;
+    flex-direction: column;
+}
+
+/* Market UI specific styles */
+.marketHeader {
+    font-size: 20px;
+    unity-text-align: center;
+}
+
+.marketPanel {
+    flex-direction: column;
+    padding: 8px;
+}
+
+.tokenPriceRow {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(100, 100, 100);
+}
+
+/* Mode toggle bar */
+.modeToggleBar {
+    flex-direction: row;
+    height: 40px;
+    padding: 4px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(100, 100, 100);
+}
+
+.modeButton {
+    flex-grow: 1;
+    margin: 2px;
+}
+
+/* User panel */
+.userPanel {
+    flex-direction: column;
+}
+
+/* Market panel */
+.marketPanel {
+    flex-direction: column;
+}

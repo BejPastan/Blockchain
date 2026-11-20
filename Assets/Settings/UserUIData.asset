@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdcc716c61440be449be70ace6af0910, type: 3}
+  m_Name: Account #2
+  m_EditorClassIdentifier: Assembly-CSharp::BlockchainDemo.UI.UserUIData
+  _moneyText: 9499
+  _walletText: 0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc
+  newTokenPrice: 500

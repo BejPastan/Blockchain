@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MarketUI" src="project://database/Assets/UI/MarketUI.uxml?fileID=9197481963319205126&amp;guid=762487c47b93b6e45b2493a71589b3f8&amp;type=3#MarketUI"/>
+    <ui:Template name="UserUI" src="project://database/Assets/UI/UserUI.uxml?fileID=9197481963319205126&amp;guid=0ddb8bc105aaa6145a8707d55463f787&amp;type=3#UserUI"/>
+    <Style src="project://database/Assets/UI/MainStyle.uss?fileID=7433441132597879392&amp;guid=d0036ac7f68dc4b4dade18015e9a56a8&amp;type=3#MainStyle"/>
+    <ui:VisualElement name="root" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement name="modeToggleBar" class="modeToggleBar" style="flex-direction: row; height: 40px;">
+            <ui:DropdownField label="Dropdown" name="userSelector" data-source="project://database/Assets/Settings/UIViewModel.asset?fileID=11400000&amp;guid=1dc313696d50e914d9f295987fa76d86&amp;type=2#UIViewModel" choices="" style="flex-direction: row;"/>
+            <ui:Button text="User Mode" name="userModeButton" class="modeButton"/>
+            <ui:Button text="Market Mode" name="marketModeButton" class="modeButton"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="contentContainer" style="flex-grow: 1; flex-direction: row;">
+            <ui:Instance template="UserUI" name="userPanel"/>
+            <ui:Instance template="MarketUI" name="marketPanel"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52457d7c459de704eaee2ab79de1ea3e, type: 3}
+  m_Name: MarketConfig
+  m_EditorClassIdentifier: Assembly-CSharp::BlockchainDemo.Config.Configuration
+  baseUrl: http://127.0.0.1:8545/
+  workMode: 0
+  contracts:
+  - Key: first
+    Value:
+      address: 0x5fbdb2315678afecb367f032d93f642f64180aa3
+      abi: {fileID: 4900000, guid: 8f9565bb4c3164549b2fa5b67caf8c46, type: 3}

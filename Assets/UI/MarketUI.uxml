@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainStyle.uss?fileID=7433441132597879392&amp;guid=d0036ac7f68dc4b4dade18015e9a56a8&amp;type=3#MainStyle"/>
+    <ui:VisualElement name="root" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:VisualElement name="" style="flex-grow: 1; flex-direction: row;">
+                <ui:Label text="Marketplace Tokens" name="marketTokensHeader" style="font-size: 20px; unity-text-align: center;"/>
+                <ui:Button text="Buy" name="marketBuyButton" class="labelButton"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="marketTokensList" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
